@@ -36,6 +36,7 @@ html {
 body { 
     line-height: 1.2; 
     background-color: var(--Light-grayish-blue);
+    display: flex;
 }
 
  ol , ul { list-style: none; }
@@ -49,6 +50,7 @@ body {
  table { border-collapse: collapse; border-spacing: 0;}
 
 .container {
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem; 
